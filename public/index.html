@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>聊天室</title>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" type="text/css" />
+    <link href="index.css" rel="stylesheet" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+</head>
+
+
+
+<body>
+    <h2>聊天室</h2>
+    <div class="box">
+    </div>
+    <h3>暱稱：</h3><input type="text" size="10" id="name" />
+    <h3>輸入訊息：</h3><input type="text" size="40" id="message" />
+    <input type="button" value="送出" class="btn btn-success" id="send" />
+</body>
+</html>
